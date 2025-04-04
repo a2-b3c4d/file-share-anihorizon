@@ -21,7 +21,7 @@ from database.database import *
 
 
 # File auto-delete time in seconds (Set your desired time in seconds here)
-FILE_AUTO_DELETE = 900 # Example: 3600 seconds (1 hour)
+FILE_AUTO_DELETE = "900" # Example: 3600 seconds (1 hour)
 
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2 & subscribed3 & subscribed4)
