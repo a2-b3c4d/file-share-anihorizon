@@ -11,12 +11,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"""<b><blockquote>╭───────────⍟
-├➤ ᴏᴡɴᴇʀ : <a href='t.me/peldiya'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
+├➤ ᴏᴡɴᴇʀ : <a href='t.me/AniHorizon>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
 ├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/PythonBotz>AniHorizon</a>
-├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/seiao>Tharun_stryker</a>
-├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/metaui>Tharun_stryker</a>
+├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/Tharun_stryker>ʀ ᴇ ᴏ ɴ</a>
+├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/Momo_Ayase_bot>🇸 🇹 🇷 🇾 🇰 🇪 🇷 </a>
 ╰───────────────⍟</blockquote></b>""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
@@ -46,8 +46,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+D-WW53u9rzNhNDJl"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/pythonbotz")
+                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+fFiQg-aN1XU0YWZl"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/AniHorizon")
                     ],
                     [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"), 
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -105,7 +105,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     elif data == "source":
         await query.message.edit_text(
-            text=f"<b><blockquote>ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ\nɪɴ ᴛᴡᴏ ᴡᴀʏs\n★ <a herf='https://publicearn.com/GitHub'>ɢɪᴛʜᴜʙ</a> \n★ <a herf='https://t.me/+Yy9O2e_eJwU3NjRl'>ᴢɪᴘ ғɪʟᴇ </a></blockquote></b>",
+            text=f"<b><blockquote>ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ\nɪɴ ᴛᴡᴏ ᴡᴀʏs\n★ <a herf='https://t.me/+JBlEWX_WzR45MTc9'>ɢɪᴛʜᴜʙ</a> \n★ <a herf='https://t.me/+JBlEWX_WzR45MTc9'>ᴢɪᴘ ғɪʟᴇ </a></blockquote></b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
