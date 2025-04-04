@@ -21,7 +21,7 @@ from database.database import *
 
 
 # File auto-delete time in seconds (Set your desired time in seconds here)
-FILE_AUTO_DELETE = TIME  # Example: 3600 seconds (1 hour)
+FILE_AUTO_DELETE = 900 seconds # Example: 3600 seconds (1 hour)
 
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2 & subscribed3 & subscribed4)
@@ -96,7 +96,8 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<i><b>🦄 Importance </b>\n\nThis file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
+                f"<i><b>🍑qImportance</b>\n\nThis naughty file will vanish in {get_exp_time(FILE_AUTO_DELETE)} ⏳Save it or forward it to your Saved Messages now, darling~
+I won’t keep it forever… unless you make me~.</i>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
