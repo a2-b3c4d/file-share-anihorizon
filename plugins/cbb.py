@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"""<b><blockquote>╭───────────⍟
-├➤ ᴏᴡɴᴇʀ : <a href='t.me/Momo_Ayase_bot>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
+├➤ ᴏᴡɴᴇʀ : <a href='t.me/Momo_Ayase_bot'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
 ├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/AniHorizon>AniHorizon</a>
