@@ -44,8 +44,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote> 🍒 ʜᴇʏ !! {mention} ɪ ᴀᴍ ʀɪᴀꜱ~ ʏᴏᴜʀ ʜᴏᴛ ғɪʟᴇ ꜱᴛᴏʀᴇ ǫᴜᴇᴇɴ~  ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ ᴀ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇᴍ ᴜꜱɪɴɢ ᴀ ᴜɴɪǫᴜᴇ ʟɪɴᴋ~
-ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ɪ’ʟʟ ʜᴀɴᴅʟᴇ ɪᴛ... ɪɴ ᴍʏ ᴡᴀʏ~.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote> 🍒 ʜᴇʏ !! {mention} ɪ ᴀᴍ ʀɪᴀꜱ~ ʏᴏᴜʀ ʜᴏᴛ ғɪʟᴇ ꜱᴛᴏʀᴇ ǫᴜᴇᴇɴ~ ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ ᴀ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇᴍ ᴜꜱɪɴɢ ᴀ ᴜɴɪǫᴜᴇ ʟɪɴᴋ~.</blockquote></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
