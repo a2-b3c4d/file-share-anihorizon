@@ -44,7 +44,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜᴇʏ !! {mention}\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>🍒ʜᴇʏ !! {mention} ɪ ᴀᴍ ʀɪᴀꜱ~ ʏᴏᴜʀ ʜᴏᴛ ғɪʟᴇ ꜱᴛᴏʀᴇ ǫᴜᴇᴇɴ~  ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ ᴀ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇᴍ ᴜꜱɪɴɢ ᴀ ᴜɴɪǫᴜᴇ ʟɪɴᴋ~
+ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ɪ’ʟʟ ʜᴀɴᴅʟᴇ ɪᴛ... ɪɴ ᴍʏ ᴡᴀʏ~.</blockquote></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -53,7 +54,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴏᴏᴏᴏᴏʜ~ {first}\n\n<b> , ʏᴏᴜ ᴄᴀɴ'ᴛ ᴛᴏᴜᴄʜ ᴍᴇ ʏᴇᴛ...ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴍʏ sᴇᴄʀᴇᴛ ʀᴏᴏᴍ ꜰɪʀꜱᴛ~  ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴘʟᴀʏ, ɪ'ʟʟ ʙᴇ ᴡᴀɪᴛɪɴɢ ɪɴ ʟᴀᴄᴇ~.</b>")
 
 # Start & Fsub Pics ----------------------------------- #
 
@@ -72,7 +73,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b>❌ Don't send me messages directly I'm only File Share bot !\n👨‍💻 Bot Devloper @metaui<\b>"
+USER_REPLY_TEXT = "<b>ᴏᴏᴘs~ {mention} ᴏɴʟʏ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴄᴀɴ ꜱᴛᴏʀᴇ ꜰɪʟᴇꜱ ɪɴ ᴍᴇ~  ʏᴏᴜ'ʀᴇ ɴᴏᴛ ʜɪᴍ, ʙᴀʙʏ~<\b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
