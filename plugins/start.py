@@ -96,8 +96,9 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b><blockquote><i>🍑 Importance</i>\n\n⏳ Uploading Seduction Protocol...\n▌▒▒▒▒▒▒▒▒▒ 10%\n▌▒▒▒▒▒▒▒▒▒▒▒ 30%\n▌▒▒▒▒▒▒▒▒▒▒▒▒ 50%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒ 70%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 100%\n\nNaughty file will vanish in {get_exp_time(FILE_AUTO_DELETE)} ⏳\nSave it or whisper it into your Saved Messages, darling~\nI won’t keep it forever… unless you tempt me~</i></blockquote></b>"
-
+    f"<b><blockquote><i>🍑 Importance</i>\n\n⏳ Uploading Seduction Protocol...\n▌▒▒▒▒▒▒▒▒▒ 10%\n▌▒▒▒▒▒▒▒▒▒▒▒ 30%\n▌▒▒▒▒▒▒▒▒▒▒▒▒ 50%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒ 70%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 100%\n\nNaughty file will vanish in {get_exp_time(FILE_AUTO_DELETE)} ⏳\nSave it or whisper it into your Saved Messages, darling~\nI won’t keep it forever… unless you tempt me~</i></blockquote></b>",
+    disable_web_page_preview=True
+            )
             await asyncio.sleep(FILE_AUTO_DELETE)
 
             for snt_msg in pythonbotz_msgs:    
