@@ -53,7 +53,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴏᴏᴏᴏᴏʜ~ {first}\n\n<b> , ʏᴏᴜ ᴄᴀɴ'ᴛ ᴛᴏᴜᴄʜ ᴍᴇ ʏᴇᴛ...ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴍʏ sᴇᴄʀᴇᴛ ʀᴏᴏᴍ ꜰɪʀꜱᴛ~  ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴘʟᴀʏ, ɪ'ʟʟ ʙᴇ ᴡᴀɪᴛɪɴɢ ɪɴ ʟᴀᴄᴇ~.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴏᴏᴏᴏᴏʜ~ {first}\n\n<b> , ʏᴏᴜ ᴄᴀɴ'ᴛ ᴛᴏᴜᴄʜ ᴍᴇ ʏᴇᴛ...ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴍʏ sᴇᴄʀᴇᴛ ʀᴏᴏᴍ ꜰɪʀꜱᴛ~  ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴘʟᴀʏ, ɪ'ʟʟ ʙᴇ ᴡ")
 
 # Start & Fsub Pics ----------------------------------- #
 
@@ -71,7 +71,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
-BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
+BOT_STATS_TEXT = "<b><blockquote>ʀɪᴀꜱ' ɴᴀᴜɢʜᴛʏ ᴀʀᴄʜɪᴠᴇ ꜱᴛᴀᴛꜱ\n\n• ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ: {users}\n• ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇᴅ: {files}\n• ʙᴏᴛ ᴜᴘᴛɪᴍᴇ: {uptime}</blockquote></b>\n<code>ᴏɴʟʏ ᴍʏ ᴅᴀʀʟɪɴɢ ᴍᴀꜱᴛᴇʀ ᴄᴀɴ ᴘʟᴀʏ ᴡɪᴛʜ ᴛʜᴇꜱᴇ ꜱᴇᴄʀᴇᴛꜱ~</code>"
 USER_REPLY_TEXT = "<b><blockquote>ᴏᴏᴘs~ 🙃 ᴏɴʟʏ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴄᴀɴ ꜱᴛᴏʀᴇ ꜰɪʟᴇꜱ ɪɴ ᴍᴇ~  ʏᴏᴜ'ʀᴇ ɴᴏᴛ ʜɪᴍ, ʙᴀʙʏ~<\blockquote><\b>"
 
 ADMINS.append(OWNER_ID)
