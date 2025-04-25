@@ -96,8 +96,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<i><b>🍑 Importance</b></i>\n\nThis naughty file will vanish in {get_exp_time(FILE_AUTO_DELETE)} ⏳\nSave it or forward it to your Saved Messages now, darling~\nI won’t keep it forever… unless you make me~.</i>"
-            )
+                f"<b><blockquote><i>🍑 Importance</i>\n\n⏳ Uploading Seduction Protocol...\n▌▒▒▒▒▒▒▒▒▒ 10%\n▌▒▒▒▒▒▒▒▒▒▒▒ 30%\n▌▒▒▒▒▒▒▒▒▒▒▒▒ 50%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒ 70%\n▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 100%\n\nNaughty file will vanish in {get_exp_time(FILE_AUTO_DELETE)} ⏳\nSave it or whisper it into your Saved Messages, darling~\nI won’t keep it forever… unless you tempt me~</i></blockquote></b>"
 
             await asyncio.sleep(FILE_AUTO_DELETE)
 
