@@ -22,7 +22,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , callback_data = "main")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ live action 𝟷𝟾+ ᴠɪᴅᴇᴏs", url = "https://t.me/+MzzvhcCIVzg0NDY1")],
+                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ live action 𝟷𝟾+ ᴠɪᴅᴇᴏs", url = "https://t.me/+9lxBe6a5x8Q4M2Q1")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -74,7 +74,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     InlineKeyboardButton(text="🎭", callback_data="about"),
                 ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
                     InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ live action ᴠɪᴅᴇᴏs", url = "https://t.me/+MzzvhcCIVzg0NDY1") ],
+                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ live action ᴠɪᴅᴇᴏs", url = "https://t.me/+9lxBe6a5x8Q4M2Q1") ],
                 [
                     InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
                     InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
